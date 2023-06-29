@@ -1,0 +1,77 @@
+body{
+    background-color: black;
+    color: white;
+    
+}
+h1{
+    font-size: 35px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: pink;
+}
+#rules{
+    
+    border:2px solid rgb(219, 99, 99);
+    border-radius: 5px;
+    padding-left: 50px;
+    font-size: 20px;
+    margin:20px;
+    text-transform: uppercase;
+}
+#a{
+    border:2px solid rgb(219, 99, 99);
+    margin:50px 300px;
+    height: 200px;
+    width: 700px;
+    padding-top: 90px;
+    border-radius: 10px;
+}
+#a input{
+    font-size: large;
+    border-radius: 50px;
+    background-color: pink;
+    color: black;
+    text-transform: uppercase;
+}
+#a span{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+#a button{
+    border:none;
+    color: pink;
+    height:30px;
+    background-color: black;
+    font-size: large;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+#re{
+    border:none;
+    color: pink;
+    height:30px;
+    background-color: black;
+    font-size: large;
+    cursor: pointer;
+   margin-left: 90%;
+   text-transform: uppercase;
+}
+#remi{
+    color: aquamarine;
+    margin-left: 1000px;
+font-size: 20px;
+text-transform: uppercase;
+
+
+}
+#reset{
+    margin-left: 1000px;
+    display: inline;
+    background-color: pink;
+   
+    border-radius: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: large;
+
+}

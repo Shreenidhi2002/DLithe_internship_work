@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Game</title>
+    <link rel="stylesheet" href="guess_number.css">
+    <script  defer src="guess_number.js"></script>
+</head>
+<body>
+   <center><h1>Guess Game</h1></center> 
+   <!-- <button id="re">RESTART</button> -->
+   <div id="rules">
+    <p>Game Rules:</p>
+    <p><ul><li>Enter your guess in the guess enter box(range from 1-10)</li><li>You are given 10 chances to guess</li><li>If you dont guess correct by the end of 5th chance you loose</li><li>You can restart the game by clicking restart button</li></ul></p>
+   </div>
+   
+   <span id="remi"></span>
+   <br><br>
+   <button  onclick="onresets()" id="reset" >RESTART</button>
+   <div id="a">
+    <center>
+        <span>Guess</span>
+         <input type="text" style="margin-left: 30px;" id="in">
+         <br><br>
+         <span id="hint"></span>
+         <br><br>
+         <br>
+        <button onclick="getvalue()" id="but">Submit</button>
+    </center>
+   
+</div>
+
+
+ 
+</body>
+</html>
